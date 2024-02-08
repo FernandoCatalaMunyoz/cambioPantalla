@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.main {
+  position: absolute;
+  width: 100vw;
+  visibility: visible;
+  padding: 0;
+  height: 919px;
+  display: none;
+  pointer-events: none;
+}
+.changeSection {
+  height: 5em;
+  width: 20em;
+  border: black solid 0.2em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.changeSection:hover {
+  cursor: pointer;
+}
+#s1 {
+  background-color: red;
+}
+#s2 {
+  background-color: rgb(225, 233, 87);
+  top: 0;
+}
+
+#s3 {
+  background-color: rgb(88, 235, 63);
+}
+#s4 {
+  background-color: rgb(57, 76, 242);
+}
+#s5 {
+  background-color: #ff00d4;
+}
+.visible {
+  display: block;
+  pointer-events: all;
+}
